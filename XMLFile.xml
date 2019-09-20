@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/img_avatar2.png</ImageUrl>
+    <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+    <AlternateText>Alt Text</AlternateText>
+    <Keyword>Computers</Keyword>
+    <Impressions>80</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/a.jpg</ImageUrl>
+    <NavigateUrl>http://www.aejaaz.com</NavigateUrl>
+    <AlternateText>This is adrotator demo</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/2.jpg</ImageUrl>
+    <NavigateUrl>http://www.aejaaz.com</NavigateUrl>
+    <AlternateText> demo</AlternateText>
+    <Impressions>201</Impressions>
+  </Ad>
+</Advertisements>

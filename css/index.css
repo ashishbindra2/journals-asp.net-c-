@@ -1,0 +1,145 @@
+﻿    
+.main{background:#fff;padding:25px}img{max-width:100%}
+
+.content_body_inner
+{
+	margin:0;
+	padding:0;
+	width:91%;
+	font-size:1vw;
+	line-height:22px;
+	height: 316px;
+}
+div.blue_bar{
+	background-color: #7DBED7;
+	border-radius: 5px 15px 15px 5px;
+	
+	vertical-align:middle;
+	color:#333333;
+	font-weight:bold;
+	padding:8px;
+	margin:0;
+}
+#blueback
+{
+    padding-top:1%;
+	font-size: 14px;
+	width:77%;
+	margin:5px;
+}
+div.green_bar{
+	
+	background-color: #A6EA88;
+	border-radius: 15px 30px 30px 5px;
+	
+	vertical-align:middle;
+	color:#333333;
+	font-weight:bold;
+	font-size:1vw;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding:8px;
+	margin:0 ;
+	
+}
+p {
+    margin: 0 0 20px;
+    line-height: 180%;
+    text-align: justify;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 15px;
+    color: #504849;
+}
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+ .edd
+ {
+    margin: 0 0 20px;
+     
+    line-height: 180%;
+    font-size: 15px;
+    color: #504849;
+    font-family: Georgia,"Times New Roman",Times,serif !important;
+        width: 814px;
+    }
+
+#news_contents
+{
+	background:white;
+	background-repeat:repeat-y;
+	font-size:1vw;
+	line-height:22px;
+	margin: 5px;
+	border:1px solid red;
+	background:#2792bd;border-radius: 15px 15px 15px 5px;
+}
+
+#news_body
+{
+	padding:5px;
+	height: auto;
+	color: white;
+	font-size: 0.8vw;
+	line-height: 16px;
+	margin-bottom: 40%;
+}
+iv#journallogos
+{
+	margin-top:10px;
+		
+}
+
+div#journallogos marquee
+{
+	height:280px;
+	margin:5px;
+}
+
+div#journallogos ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+div#journallogos li
+{
+	list-style:none;
+	margin-left:10px;	
+}
+
+div#journallogos img
+{
+	background:#FFF;
+	border:1px solid black;
+	border-radius:10px;
+	margin-top:10px;
+	padding:2px;
+}
+.right 
+    {
+      background-color:#FFFFFF;
+      width:22%;
+      padding:0px;
+      margin:0px;
+      text-align:center;
+     
+    }
+     .news_log{
+       background:#FFFFFF;
+       width:90%;
+       text-align:center;
+       color:#555555;
+       font-weight:bold;
+       font-size:1vw;
+       border:2px solid yellow;
+       margin: 10px;
+    }
+   
+    @media only screen and (max-width:620px) {
+      /* For mobile phones: */
+      .topnav, .main, .right {
+        width:100%;
+      }
+    }

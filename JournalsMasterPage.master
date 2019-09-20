@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="JournalsMasterPage.master.cs" Inherits="journals_JournalsMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/logo_s.png" />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="">
+     <div style="background:#2c3e50;  padding:10px;">
+     <div style="margin-left:70%; ">
+        
+         <asp:Label ID="Label1" runat="server" 
+             ForeColor="White" Visible="False"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:Button ID="Button1" runat="server" Text="LogIn" CausesValidation="False" 
+             onclick="Button1_Click" style="margin-left: 0px" />&nbsp;&nbsp;<asp:Button ID="Button2" runat="server" Text="Registration" 
+             onclick="Button2_Click" Width="100px" />
+         <asp:Button ID="Button3" runat="server" onclick="Button3_Click" Text="logout" 
+             Visible="False" />
+         </div>
+    </div>
+ <div class="wrapper">           
+
+<div id="cont" class="containerr">
+
+<div id='hh'>
+    <div id='headerr'>
+        
+        <div id='logo_text'>
+          <b class="text">
+
+           (ISSN: 2229-6913)(Print)<br />
+(ISSN: 2229-6913 2320-0332 )(Online)<br />
+Research Cell: An International Journal of Engineering Sciences<br />
+An Open Access, biannual, peer reviewed, indexed refereed journal<br />
+UGC Approved Journal(S.No. 63022)
+                                                    
+        </b>
+        </div> <div id='log'><a href="Default.aspx">
+              <img src='images/logo_s.png' style="max-width: 100%;height: auto;display: block;" alt="logo"/></a>
+        </div> 
+      
+</div>
+
+</div>
+
+        <div class="menu">
+        <ul>
+  <li><a href="index.aspx">Home</a></li>
+  <li><a href="postIssue.aspx">Past Issue</a></li>
+   <li><a href="specialssue.aspx">Special Issue</a></li>
+    <li><a href="callForPaper.aspx">Call For Paper</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Links</a>
+    <div class="dropdown-content">
+      <a href="ad.aspx">Link 1</a>
+      <a href="link/ethicstatements.pdf">ethicstatements</a>
+     
+    </div>
+  </li>
+   <li><a href="submit.aspx">Author</a></li>
+    <li><a href="editior.aspx">Editor</a></li>
+     <li><a href="reviewer.aspx">Reviewer</a></li>
+     
+     <li><a href="contactUs.aspx">Contact Us</a></li>
+</ul>
+
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <div class="content">
+          </div>
+        <div class="clear"></div>
+        		<h1 style="text-align:center; 
+        		    padding:3px;
+        		    margin:0;
+        		     background-color:#fc9f1d;
+        		      color:#FFF; font-weight:normal;">
+                 Need help?  </h1>
+
+        <div id="footer-bottom" class="row clr">
+      
+        copyright@Ashish
+        
+    <!---   <ul class="nav justify-content-end" style="text-align:center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>--->
+		</div>
+	  </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
